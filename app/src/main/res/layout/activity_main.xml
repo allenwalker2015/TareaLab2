@@ -133,14 +133,15 @@
         </RelativeLayout>
     </LinearLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
 
         <Button
             android:id="@+id/reset"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:layout_height="wrap_content"
             android:layout_marginBottom="0dp"
             android:onClick="resetCount"
@@ -155,6 +156,6 @@
             android:text="Autor: Kevin Alexander Perez Baires"
             android:textAlignment="center"
             android:textSize="12sp" />
-    </RelativeLayout>
+    <!--</RelativeLayout>-->
 
 </LinearLayout>
