@@ -135,7 +135,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
         <Button
             android:id="@+id/reset"
@@ -146,14 +146,15 @@
             android:onClick="resetCount"
             android:text="RESET"
             android:textAlignment="gravity" />
+
         <TextView
-            android:layout_centerHorizontal="true"
-            android:layout_below="@id/reset"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="bottom"
+            android:text="Autor: Kevin Alexander Perez Baires"
             android:textAlignment="center"
-            android:textSize="12sp"
-            android:text="Autor: Kevin Alexander Perez Baires"/>
+            android:textSize="12sp" />
     </RelativeLayout>
 
 </LinearLayout>
